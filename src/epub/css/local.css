@@ -1,11 +1,22 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-.dropcap{
-	float: left;
-	line-height: 0;
+.dropcap {
+  float: left;
+  line-height: 0;
 }
 
-.fig{
-	width: 100% !important;
+.fig {
+  width: 100% !important;
+  display: block;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fig img {
+  width: 100% !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
