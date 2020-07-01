@@ -3,7 +3,8 @@
 
 .dropcap {
   float: left;
-  line-height: 0;
+  margin: 0 0.1em 0 0;
+  line-height: .8;
 }
 
 .fig {
@@ -19,4 +20,11 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+html {
+  --USER__fontOverride: readium-font-on;
+  --USER__fontFamily: var(--RS__humanistTf);
+  --USER__advancedSettings: readium-advanced-on;
+  --USER__textAlign: justify;
 }
