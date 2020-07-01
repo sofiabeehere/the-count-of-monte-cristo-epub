@@ -21,10 +21,3 @@
   margin-left: auto;
   margin-right: auto;
 }
-
-html {
-  --USER__fontOverride: readium-font-on;
-  --USER__fontFamily: var(--RS__humanistTf);
-  --USER__advancedSettings: readium-advanced-on;
-  --USER__textAlign: justify;
-}
